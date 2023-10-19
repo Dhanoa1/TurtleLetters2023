@@ -204,6 +204,18 @@ def drawP():
   goto(100,25)
   goto(75,25)
 
+def drawN():
+  turtle.right(180)
+  turtle.penup()
+  turtle.goto(150,0)
+  turtle.pendown()
+  turtle.left(90)
+  turtle.forward(100)
+  turtle.right(150)
+  turtle.forward(115)
+  turtle.left(150)
+  turtle.forward(100)
+
 
 
 
