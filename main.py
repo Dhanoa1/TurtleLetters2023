@@ -1,6 +1,32 @@
 from turtle import *
 # uppercase letters go up here
 
+#draw the letter C
+def drawC():
+  pendown()
+  left(180)
+  for i in range (180):
+    forward(1)
+    right(1)
+  penup()
+  forward(30)
+
+#draw the letter G
+def drawG():
+  forward(50)
+  pendown()
+
+  for i in range (180):
+    backward(1)
+    left(1)
+  right(90)
+  forward(50)
+  left(90)
+  forward(30)
+  
+  
+drawC() 
+drawG()
 
 def drawC():
   goto(0, 0)
