@@ -57,7 +57,20 @@ def drawL():
   pendown()
   forward(75)
 
-
+def drawD():
+  forward(50)
+  penup()
+  right(180)
+  forward(80)
+  pendown()
+  right(90)
+  forward(60)
+  left(90)
+  for x in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
+    forward(20)
+    left(20)
+  left(70)
+  forward(60)
 
 
 def upperT():
