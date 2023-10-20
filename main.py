@@ -1,5 +1,4 @@
 from turtle import *
-# uppercase letters go up here
 
 
 def drawC():
@@ -205,16 +204,16 @@ def drawP():
   goto(75,25)
 
 def drawN():
-  turtle.right(180)
-  turtle.penup()
-  turtle.goto(150,0)
-  turtle.pendown()
-  turtle.left(90)
-  turtle.forward(100)
-  turtle.right(150)
-  turtle.forward(115)
-  turtle.left(150)
-  turtle.forward(100)
+  right(180)
+  penup()
+  goto(150,0)
+  pendown()
+  left(90)
+  forward(100)
+  right(150)
+  forward(115)
+  left(150)
+  forward(100)
 
 
 
@@ -222,4 +221,4 @@ def drawN():
 
 
 
-# lowercase letters down here
+
