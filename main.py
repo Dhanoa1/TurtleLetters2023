@@ -280,6 +280,31 @@ def writeC():
   forward(150)
 
 
+def drawD ():
+  #Draw D
+  penup()
+  goto (-100,0)
+  pendown()
+  left(90)
+  forward(80)
+  right(120)
+  forward(100)
+  right (135)
+  forward (100)  
+  
+def drawP ():
+  #Draw P
+  penup()
+  setheading(90) 
+  goto (40,0)
+  pendown()
+  forward (80)
+  right (125)
+  forward (60)
+  right (125)
+  forward (60)
+  
+
 
 
 
