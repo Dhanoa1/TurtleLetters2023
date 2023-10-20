@@ -1,5 +1,10 @@
 from turtle import *
 
+
+
+
+
+
 #draw the letter C
 def drawC():
   pendown()
@@ -272,6 +277,21 @@ def drawP():
   goto(100,25)
   goto(75,25)
 
+
+def drawN():
+  right(180)
+  penup()
+  goto(150,0)
+  pendown()
+  left(90)
+  forward(100)
+  right(150)
+  forward(115)
+  left(150)
+  forward(100)
+
+
+
 def createA():
    left(90)
    forward(100)
@@ -417,6 +437,7 @@ def drawP ():
   right (125)
   forward (60)
   
+
 
 
 
