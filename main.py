@@ -204,7 +204,6 @@ def drawP():
   goto(100,25)
   goto(75,25)
 
-  from turtle import *
 def drawB ():
   penup()
   goto(-50,-50)
@@ -219,7 +218,6 @@ def drawB ():
   left(180)
   forward(200)
   
-drawB()
 
 
 
