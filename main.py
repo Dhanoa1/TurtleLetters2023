@@ -15,7 +15,6 @@ def drawC():
 def drawG():
   forward(50)
   pendown()
-
   for i in range (180):
     backward(1)
     left(1)
@@ -25,8 +24,7 @@ def drawG():
   forward(30)
   
   
-drawC() 
-drawG()
+
 
 def drawC():
   goto(0, 0)
