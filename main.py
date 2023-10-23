@@ -487,7 +487,32 @@ def drawV():
   left(135)
   forward(100)
 
-
+#Allen's Code (username is different lol
+def drawAllenA():
+  pendown()
+  left(70)
+  forward(50)
+  right(140)
+  forward(50)
+  backward(25)
+  right(110)
+  forward(18)
+  backward(18)
+  left(110)
+  forward(25)
+  penup()
+  left(70)
+  forward(50)
+  
+def drawAllenC():
+  pendown()
+  left(180)
+  allenDegreeNumber = 1
+  while allenDegreeNumber <= 180:
+    forward(0.5)
+    right(1)
+    allenDegreeNumber = allenDegreeNumber + 1
+#bottom text
 
 
 
