@@ -438,7 +438,7 @@ def drawP ():
   forward (60)
 
 def drawE():
-  pendown
+  pendown()
   forward(75)
   left(180)
   forward(75)
