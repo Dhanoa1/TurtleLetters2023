@@ -412,6 +412,24 @@ def writeC():
   left(90)
   forward(150)
 
+def drawC ():
+    pendown()
+    for i in range(180):
+      forward(-1)
+      right(-1)
+
+def drawM ():
+  pendown()
+  right(-90)
+  forward(125)
+  forward(-125)
+  right(-25)
+  forward(125)
+  right(-125)
+  forward(125)
+  right(150)
+  forward(125)
+
 
 def drawD ():
   #Draw D
@@ -513,6 +531,31 @@ def drawAllenC():
     right(1)
     allenDegreeNumber = allenDegreeNumber + 1
 #bottom text
+
+def drawl():
+    pendown()
+    left(90)
+    forward(100)
+    right(180)
+    forward(100)
+    left(90)
+    forward(60)
+    penup()
+def drawh():
+    pendown()
+    left(90)
+    forward(100)
+    left(180)
+    forward(50)
+    left(90)
+    forward(50)
+    left(90)
+    forward(50)
+    left(180)
+    forward(100)
+
+
+
 
 
 
