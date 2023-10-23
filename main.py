@@ -438,6 +438,25 @@ def drawP ():
   forward (60)
   
 
+def drawN():
+  pendown()
+  right(90)
+  forward(100)
+  right(135)
+  forward(130)
+  left(135)
+  forward(100)
+  penup()
+def drawV():
+  left(90)
+  forward(150)
+  left(90)
+  forward(100)
+  right(155)
+  pendown()
+  forward(100)
+  left(135)
+  forward(100)
 
 
 
