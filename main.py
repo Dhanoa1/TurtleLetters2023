@@ -505,6 +505,28 @@ def drawV():
   left(135)
   forward(100)
 
+def drawl():
+    pendown()
+    left(90)
+    forward(100)
+    right(180)
+    forward(100)
+    left(90)
+    forward(60)
+    penup()
+def drawh():
+    pendown()
+    left(90)
+    forward(100)
+    left(180)
+    forward(50)
+    left(90)
+    forward(50)
+    left(90)
+    forward(50)
+    left(180)
+    forward(100)
+
 
 
 
