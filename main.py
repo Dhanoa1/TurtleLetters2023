@@ -436,7 +436,36 @@ def drawP ():
   forward (60)
   right (125)
   forward (60)
-  
+
+def drawE():
+  pendown
+  forward(75)
+  left(180)
+  forward(75)
+  left(90)
+  forward (50)
+  left(90)
+  forward(75)
+  left(180)
+  forward(75)
+  left(90)
+  forward (50)
+  left(90)
+  forward(75)
+
+def drawS():
+  penup()
+  forward(30)
+  pendown()
+  forward(75)
+  left(90)
+  forward(50)
+  left(90)
+  forward(75)
+  right(90)
+  forward(50)
+  right(90)
+  forward(75)
 
 
 
