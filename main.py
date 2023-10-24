@@ -20,8 +20,7 @@ def drawK():
   left(90)
   forward(40)
 
-drawC()
-drawK()
+
 
 
 
