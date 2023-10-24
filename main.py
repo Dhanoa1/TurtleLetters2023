@@ -556,8 +556,7 @@ def drawh():
 
 
 
-from turtle import *
-tracer(0)
+
 
 # draw the letter K
 def drawK():
@@ -573,7 +572,7 @@ def drawK():
     backward(60)
     left(50)
     up()
-drawK()
+
 
 # draw the letter A.
 def drawA():
@@ -592,7 +591,7 @@ def drawA():
     forward(40)
     right(90)
     forward(110)
-drawA()
+
 
 
 update()
