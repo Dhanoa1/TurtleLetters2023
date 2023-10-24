@@ -1,6 +1,27 @@
 from turtle import *
 
+def drawC():
+  pendown()
+  left(180)
+  for i in range(180):
+    forward (.5)
+    left(1)
+    
+def drawK():
+  penup()
+  goto(6,4)
+  pendown()
+  right(90)
+  forward(60)
+  backward(30)
+  left(45)
+  forward(60)
+  backward(60)
+  left(90)
+  forward(40)
 
+drawC()
+drawK()
 
 
 
