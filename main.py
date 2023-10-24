@@ -556,6 +556,51 @@ def drawh():
 
 
 
+from turtle import *
+tracer(0)
+
+# draw the letter K
+def drawK():
+    color('blue')
+    left(90)
+    forward(100)
+    backward(50)
+    right(25)
+    forward(60)
+    backward(60)
+    right(120)
+    forward(60)
+    backward(60)
+    left(50)
+    up()
+drawK()
+
+# draw the letter A.
+def drawA():
+    forward(65)
+    left(95)
+    down()
+    forward(55)
+    backward(100)
+    forward(50)
+    right(90)
+    forward(40)
+    backward(40)
+    left(90)
+    forward(55)
+    right(90)
+    forward(40)
+    right(90)
+    forward(110)
+drawA()
+
+
+update()
+
+
+
+
+
 
 
 
