@@ -594,7 +594,7 @@ def drawA():
 
 
 
-update()
+
 
 
 
