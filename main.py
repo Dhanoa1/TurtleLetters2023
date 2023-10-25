@@ -615,6 +615,32 @@ def drawA():
 
 
 
+def drawI():
+  pendown()
+  forward(100)
+  right(180)
+  forward(50)
+  left(90)
+  forward(100)
+  right(90)
+  forward(50)
+  right(180)
+  forward(100)
+  penup()
+def drawA():
+  forward(50)
+  pendown()
+  left(55)
+  forward(100)
+  right(130)
+  forward(100)
+  forward(-60)
+  right(100)
+  forward(50)
+
+
+
+
 
 
 
