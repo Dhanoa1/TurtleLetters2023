@@ -639,7 +639,19 @@ def drawA():
     right(90)
     forward(110)
 
-
+def drawY():
+  pendown()
+  right(90)
+  forward(100) 
+  right(180)
+  forward(150)
+  right(35)
+  forward(100)
+  right(180)
+  forward(100)
+  left(-100)
+  forward(100)
+  penup()
 
 
 def drawI():
