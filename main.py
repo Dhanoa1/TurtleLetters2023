@@ -613,7 +613,7 @@ def drawA():
     forward(110)
 
 
-from turtle import *
+
 
 def drawI():
   pendown()
@@ -638,8 +638,7 @@ def drawA():
   right(100)
   forward(50)
 
-drawI()
-drawA()
+
 
 
 
