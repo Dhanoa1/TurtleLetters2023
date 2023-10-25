@@ -21,14 +21,14 @@ def drawK():
   forward(40)
 
 
-from turtle import *
+
 def Z():
     forward(100)
     right(130)
     forward(150)
     left(130)
     forward(100)
-Z()
+
 def F():
   penup()
   goto(180,180)
@@ -47,7 +47,7 @@ def F():
   right(90)
   forward(100)
   forward(100)
-F()
+
   
 
 
