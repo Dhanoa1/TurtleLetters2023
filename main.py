@@ -677,7 +677,21 @@ def drawA():
   right(100)
   forward(50)
 
-
+def drawR():
+  penup()
+  back(150)
+  pendown()
+  left(90)
+  forward(250)
+  right(90)
+  forward(100)
+  right(90)
+  forward(100)
+  right(90)
+  forward(100)
+  right(230)
+  forward(190)
+  penup()
 
 
 
