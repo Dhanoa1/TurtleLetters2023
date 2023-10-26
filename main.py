@@ -678,6 +678,28 @@ def drawA():
   forward(50)
 
 
+def drawJW():
+    turtle.forward(80)
+  turtle.right(180)
+  turtle.forward(40)
+  turtle.left(90)
+  turtle.forward(50)
+  n = 120
+  for i in range(n):
+    turtle.right(1)
+    turtle.forward(0.5)
+  turtle.left(110)
+
+def drawWW
+  turtle.right(75)
+  n = 2
+  for i in range(n):
+    turtle.forward(80)
+    turtle.left(150)
+    turtle.forward(80)
+    turtle.right(150)
+
+
 
 
 
