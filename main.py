@@ -1,7 +1,7 @@
 from turtle import *
 
 
-  t = turtle.Turtle()
+
 def drawE():
   t.penup()
   t.goto(0, 0)
@@ -28,9 +28,7 @@ def drawS():
   t.circle(-25, 180)
   t.forward(40)
   
-drawE()
-drawS()
-turtle.done()
+
 
 
 
