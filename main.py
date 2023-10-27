@@ -679,7 +679,7 @@ def drawA():
 
 
 def drawJW():
-    turtle.forward(80)
+  turtle.forward(80)
   turtle.right(180)
   turtle.forward(40)
   turtle.left(90)
