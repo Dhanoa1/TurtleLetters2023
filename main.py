@@ -710,6 +710,23 @@ def drawA():
   forward(50)
 
 
+def drawR():
+  penup()
+  back(150)
+  pendown()
+  left(90)
+  forward(250)
+  right(90)
+  forward(100)
+  right(90)
+  forward(100)
+  right(90)
+  forward(100)
+  right(230)
+  forward(190)
+  penup()
+
+
 def drawJW():
   turtle.forward(80)
   turtle.right(180)
@@ -730,6 +747,7 @@ def drawWW
     turtle.left(150)
     turtle.forward(80)
     turtle.right(150)
+
 
 
 
