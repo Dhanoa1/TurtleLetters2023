@@ -1,5 +1,37 @@
 from turtle import *
 
+
+
+def drawE():
+  t.penup()
+  t.goto(0, 0)
+  t.pendown()
+  t.forward(-45)
+  t.setheading(90)
+  t.forward(45)
+  t.right(90)
+  t.forward(45)
+  t.forward(-45)
+  t.setheading(90)
+  t.forward(45)
+  t.right(90)
+  t.forward(45)
+  t.hideturtle()
+
+t = turtle.Turtle()
+def drawS():
+  t.penup()
+  t.goto(6, 0)
+  t.pendown()
+  t.forward(40)
+  t.circle(25, 180)
+  t.circle(-25, 180)
+  t.forward(40)
+  
+
+
+
+
 def drawC():
   pendown()
   left(180)
@@ -677,6 +709,7 @@ def drawA():
   right(100)
   forward(50)
 
+
 def drawR():
   penup()
   back(150)
@@ -692,6 +725,31 @@ def drawR():
   right(230)
   forward(190)
   penup()
+
+
+def drawJW():
+  turtle.forward(80)
+  turtle.right(180)
+  turtle.forward(40)
+  turtle.left(90)
+  turtle.forward(50)
+  n = 120
+  for i in range(n):
+    turtle.right(1)
+    turtle.forward(0.5)
+  turtle.left(110)
+
+def drawWW
+  turtle.right(75)
+  n = 2
+  for i in range(n):
+    turtle.forward(80)
+    turtle.left(150)
+    turtle.forward(80)
+    turtle.right(150)
+
+
+
 
 
 
