@@ -748,7 +748,33 @@ def drawWW
     turtle.forward(80)
     turtle.right(150)
 
+def drawJ():
+  pendown()
+  left(90)
+  forward(150)
+  left(90)
+  forward(50)
+  backward(100)
+  forward(50)
+  left(90)
+  forward(150)
+  for i in range(180):
+    forward(.5)
+    right(1)
 
+def drawR():
+  penup()
+  setpos(100,100)
+  pendown()
+  left(180)
+  forward(200)
+  backward(200)
+  right(270)
+  for i in range (180):
+    forward(.9)
+    right(1)
+  right(240)
+  forward(115)
 
 
 
