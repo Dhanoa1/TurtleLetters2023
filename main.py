@@ -776,6 +776,17 @@ def drawR():
   right(240)
   forward(115)
 
+def drawlT():
+  penup()
+  goto(-100 , 0)
+  pendown()
+  forward(100)
+  left(180)
+  forward(50)
+  left(90)
+  forward(100)
+  penup()
+
 
 
 
