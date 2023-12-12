@@ -789,6 +789,15 @@ def drawlT():
 
 
 
+def writeC():
+  pendown()
+  left(180)
+  for i in range(180):
+    forward (.50)
+    left(1.0)
+
+
+
 
 
 
